@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>528960173987-567ekrn0ug0vg5cr9oggb7mplf3fgtbj.apps.googleusercontent.com</string>
+	<string>your_client_id</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.528960173987-567ekrn0ug0vg5cr9oggb7mplf3fgtbj</string>
+	<string>your_reversed_client_id</string>
 	<key>API_KEY</key>
-	<string>AIzaSyC_U0XPkYxRUZ9b6IylccV9UHZkv7dHWd8</string>
+	<string>your_api_key</string>
 	<key>GCM_SENDER_ID</key>
-	<string>528960173987</string>
+	<string>your_sender_id</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.lippertcomponents.onecontrol</string>
+	<string>com.yourcompanyname.sample</string>
 	<key>PROJECT_ID</key>
-	<string>onecontrol-70c06</string>
+	<string>your_project</string>
 	<key>STORAGE_BUCKET</key>
-	<string>onecontrol-70c06.appspot.com</string>
+	<string>your_bucket</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:528960173987:ios:33cae65c692f72ed</string>
+	<string>your_app_id</string>
 	<key>DATABASE_URL</key>
-	<string>https://onecontrol-70c06.firebaseio.com</string>
+	<string>your_db_url</string>
 </dict>
 </plist>

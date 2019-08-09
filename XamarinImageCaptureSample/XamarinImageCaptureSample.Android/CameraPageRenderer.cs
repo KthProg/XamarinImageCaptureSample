@@ -385,7 +385,7 @@ namespace XamarinImageCaptureSample.Droid
                 _renderer.Camera = camera;
                 var surface = new Surface(_renderer.Surface);
                 _renderer.Builder = camera.CreateCaptureRequest(CameraTemplate.Preview);
-                _renderer.Builder.Set(CaptureRequest.ControlAfMode, (int)ControlAFMode.ContinuousPicture);
+                _renderer.Builder.Set(CaptureRequest.ControlAfMode, (int)ControlAFMode.ContinuousVideo);
                 _renderer.Builder.Set(CaptureRequest.ControlAfTrigger, (int)ControlAFTrigger.Start);
                 _renderer.Builder.AddTarget(surface);
                 camera.CreateCaptureSession(new List<Surface> { surface, _renderer.Reader.Surface }, _renderer.SessionCallback, null);
